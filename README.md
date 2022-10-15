@@ -24,6 +24,8 @@ macrecovery tool to download the macOS partition : https://github.com/acidanther
 
 USBTool Mapper : https://github.com/USBToolBox/tool/releases/tag/0.1.1
 
+Rufus to format your USB : https://rufus.ie/
+
 My EFI Folder in the top 
 
 Python3 if you don't have installing this : https://www.python.org/downloads/release/python-3108/
@@ -38,6 +40,10 @@ Normally you will have two files : BaseSystem.dmg and BaseSystem.chunklist
 
 # 3) Create the USB Bootable macOS installer :
 
+You will need to format your USB like this :
+
+
+![format-usb-rufus 43feba9e](https://user-images.githubusercontent.com/78324112/195980444-6415c1f6-5b51-45ae-9866-f61c1dbb3390.png)
 
 
 
