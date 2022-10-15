@@ -117,7 +117,7 @@ BIOS SETTINGS :
  
 5) Go to the Disk Utility Software
 
-7) Reset the disk where you want to install macOS in apfs and GUID partition 
+7) Reset the disk where you want to install macOS in APFS and GUID partition 
  
 9) Go to install macOS and select the disk 
 
