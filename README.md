@@ -1,4 +1,4 @@
-# 0.8.5 OpenCore - Dell 8940 with macOS Monterey (Windows tutorial but can be used in macOS)
+# 0.8.5 OpenCore - Dell 8940 with macOS Monterey (Windows tutorial but can be did in macOS)
 
 # Dell 8940 Configuration :
 
