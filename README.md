@@ -59,7 +59,7 @@ Format your USB exactly like that :
 
 Create a folder at the root named "com.apple.recovery.boot" and place the two files previously downloaded (BaseSystem.dmg and BaseSystem.chunklist).
 
-After that, copy my EFI folder at the root;
+After that, copy my EFI folder at the root.
 
 # 5) Mapping your USB Port :
 
@@ -68,6 +68,14 @@ Open the USBTool software and enter D to Discover Ports (Every 5 seconds it refr
 ![Capture d’écran 2022-10-15 à 12 18 05](https://user-images.githubusercontent.com/78324112/195981177-e2d4e307-fd50-43c3-b1a1-549a23e98185.png)
 
 After clicking, enter usb devices in all your ports to have them detected by the USBPort Mapper Program. You don't need to do it at the same time, it refresh every 5 seconds the usb ports detected.
+
+And Finally enter S and after K to Build the Kext.
+
+Recover the kext and drop it into the kext folder of the EFI.
+
+# Generate SMBIOS deets :
+
+
 
 
 
