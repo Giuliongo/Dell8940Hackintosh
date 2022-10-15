@@ -73,7 +73,7 @@ And Finally enter S and after K to Build the Kext.
 
 Recover the kext and drop it into the kext folder of the EFI (EFI -> OC -> Kexts).
 
-# Generate SMBIOS deets :
+# 6) Generate SMBIOS deets :
 
 GenSMBIOS can be run clicking on the GenSMBIOS.bat file.
 
@@ -99,13 +99,12 @@ Congratulation you finish to make the key!
 
 Just another step and you are ready to go!
 
-
-
-
-
-
-# Bios Setting you will need to changes before boot in the USB installer :
+# 7) Bios Setting you will need to changes before boot in the USB installer :
 
 To enter into the bios press F2 when the Dell logo appears.
+
+ENABLE : 
+
+
 
 
