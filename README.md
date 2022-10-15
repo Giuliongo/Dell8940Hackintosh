@@ -63,9 +63,11 @@ After that, copy my EFI folder at the root;
 
 # 5) Mapping your USB Port :
 
-Open the USBTool software and select D to Discover Port
+Open the USBTool software and enter D to Discover Ports (Every 5 seconds it refresh the usb ports detected)
 
 ![Capture d’écran 2022-10-15 à 12 18 05](https://user-images.githubusercontent.com/78324112/195981177-e2d4e307-fd50-43c3-b1a1-549a23e98185.png)
+
+After clicking, enter usb devices in all your ports to have them detected by the USBPort Mapper Program. You don't need to do it at the same time, it refresh every 5 seconds the usb ports detected.
 
 
 
