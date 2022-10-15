@@ -20,8 +20,25 @@ GenSMBIOS to create your own SMBIOS deets (SN/MLB/UUID/ROM) : https://github.com
 
 ProperTree to modify the config,plist for your own computer : https://github.com/corpnewt/ProperTree
 
-Macrecovery tool to download the macOS partition : https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.5
+macrecovery tool to download the macOS partition : https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.5
+
+USBTool Mapper : https://github.com/USBToolBox/tool/releases/tag/0.1.1
 
 My EFI Folder in the top 
 
+Python3 if you don't have installing this : https://www.python.org/downloads/release/python-3108/
+
 # 2) Download the macOS partition with Macrecovery tool :
+
+You need to open the macrecovery folder in OpenCore-0 -> Utilities -> macrecovery 
+
+After that open CMD in this folder and enter this command to download the macOS Monterey Version : python ./macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
+
+Normally you will have two files : BaseSystem.dmg and BaseSystem.chunklist
+
+# 3) Create the USB Bootable macOS installer :
+
+
+
+
+
