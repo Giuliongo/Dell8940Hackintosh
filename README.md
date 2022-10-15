@@ -16,7 +16,7 @@ __Chipset__ : X470
 
 __MotherBoard__ : Dell XPS 8940
 
-__RAM__ : 2x8Go 
+__RAM__ : 2x8Go 2933 MHz DDR4
 
 __Monitor__ (Speaker Integrated) : LG 32UL950-W 4K 32"
 
