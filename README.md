@@ -1,14 +1,20 @@
-# 0.8.5 OpenCore - Dell 8940 with macOS Monterey (Windows tutorial but can be did in macOS)
+# 0.8.5 OpenCore - Dell XPS 8940 Desktop with macOS Monterey (Windows tutorial but can be did in macOS)
 
-# Dell 8940 Configuration :
+# Dell XPS 8940 Desktop Configuration :
 
 __CPU__ : i9-10900K (Comet Lake)
 
 __GPU__ : Dell RTX 3060 Ti
 
-__iGPU__ : Intel UHD Graphics 630
+__iGPU__ : Intel(R) UHD Graphics 630
 
-__WiFi/Bluetooth Card__ : Killer.. (Intel)
+__Wi-Fi/Bluetooth Card__ : Killer(R) Wi-Fi 6 AX1650i (Intel)
+
+__Ethernet__ : Killer E2600 Gigabit Ethernet
+
+__Chipset__ : X470
+
+__MotherBoard__ : Dell XPS 8940
 
 __RAM__ : 2x8Go 
 
