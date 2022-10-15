@@ -14,6 +14,16 @@ RAM : 2x8Go
 
 Monitor (Speaker Integrated) : LG 32UL950-W 4K 32"
 
+# What is not Working (I'm working on) ?
+
+- Bluetooth
+- 4K (I can only run 2K)
+- Speaker of the Monitor
+- ShutDown/Reboot/Sleep
+- Uses of external disk than apfs 
+
+OtherWise all works perflectly (iServices, WiFi, Fluidity...)
+
 # 1) What you need :
 
 GenSMBIOS to create your own SMBIOS deets (SN/MLB/UUID/ROM) : https://github.com/corpnewt/GenSMBIOS
@@ -47,7 +57,13 @@ You will need to format your USB exactly like that :
 
 # 4) Put macOS in the key :
 
-You wil have to create a folder named "com.apple.recovery.boot" and place the two files previously downloaded (BaseSystem.dmg and BaseSystem.chunklist).
+You wil have to create a folder at the root named "com.apple.recovery.boot" and place the two files previously downloaded (BaseSystem.dmg and BaseSystem.chunklist).
+
+After that, copy my EFI folder at the root;
+
+# 5) Mapping your USB Port :
+
+
 
 
 
