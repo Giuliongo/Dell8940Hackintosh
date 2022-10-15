@@ -122,11 +122,9 @@ __BIOS SETTINGS__ :
 
 # What is not Working (I'm working on) ?
 
-* Bluetooth
 * 4K (I can only run 2K)
 * Speaker of the Monitor
 * ShutDown/Reboot/Sleep
-* Uses of external disk than apfs 
 * Ethernet
 
 OtherWise all works perflectly (iServices, WiFi, Fluidity...)
