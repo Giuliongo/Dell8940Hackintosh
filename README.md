@@ -1,8 +1,6 @@
-# Dell 8940 Monterey Hackintosh 
+# 0.8.5 OpenCore - Dell 8940 with macOS Monterey (Windows tutorial but can be with macOS)
 
-0.8.5 OpenCore - macOS Monterey (Windows tutorial but can be with macOS)
-
-Dell 8940 Configuration :
+# Dell 8940 Configuration :
 
 CPU : i9-10900K 
 
@@ -16,7 +14,7 @@ RAM : 2x8Go
 
 Monitor (Speaker Integrated) : LG 32UL950-W 4K 32"
 
-1) What you need :
+# 1) What you need :
 
 GenSMBIOS to create your own SMBIOS deets (SN/MLB/UUID/ROM) : https://github.com/corpnewt/GenSMBIOS
 
@@ -26,4 +24,4 @@ Macrecovery tool to download the macOS partition : https://github.com/acidanther
 
 My EFI Folder in the top 
 
-2) Download the macOS partition with Macrecovery tool :
+# 2) Download the macOS partition with Macrecovery tool :
