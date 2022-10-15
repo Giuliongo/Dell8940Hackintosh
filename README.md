@@ -65,6 +65,8 @@ After that, copy my EFI folder at the root;
 
 
 
+# Bios Setting you will need to changes before boot in the USB installer :
 
+To enter into the bios press F2 when the Dell logo appears.
 
 
