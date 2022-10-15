@@ -131,6 +131,9 @@ __BIOS SETTINGS__ :
 
 OtherWise all works perflectly (iServices, WiFi, Fluidity...)
 
+Credits :
+
+
 
 
 
