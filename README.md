@@ -84,8 +84,11 @@ Keep this informations and open ProperTree to edit the config.plist file (EFI ->
 Go to PlatformInfo -> Generic and enter the SMBIOS data like this (with your own results of course) :
 
 Type:         iMac20,2
+
 Serial:       C02XG0FDH7JY
+
 Board Serial: C02839303QXH69FJA
+
 SmUUID:       DBB364D6-44B2-4A02-B922-AB4396F16DA8
 
 For the ROM Section you will need to go in the network settings of windows and click to ethernet below you will found the real MAC adress of your desktop. Copy it and paste it into the ROM section of the config.plist.
