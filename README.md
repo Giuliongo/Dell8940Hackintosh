@@ -34,7 +34,8 @@ __Monitor__ (Speaker Integrated) : LG 32UL950-W 4K 32"
 
 Open the macrecovery folder in OpenCore-0 -> Utilities -> macrecovery 
 
-After that open __CMD__ in this folder and enter this command to download the latest macOS Version : >python ./macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
+After that open __CMD__ in this folder and enter this command to download the latest macOS Version : 
+> python ./macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
 
 Normally you will have two files in the macrecovery folder : __*BaseSystem.dmg*__ and __*BaseSystem.chunklist*__ (we will use them later).
 
