@@ -38,15 +38,16 @@ After that open CMD in this folder and enter this command to download the macOS 
 
 Normally you will have two files in the macrecovery folder : BaseSystem.dmg and BaseSystem.chunklist
 
-# 3) Create the USB Bootable macOS installer :
+# 3) Format your USB Stick  :
 
 You will need to format your USB exactly like that :
 
 
 ![format-usb-rufus 43feba9e](https://user-images.githubusercontent.com/78324112/195980444-6415c1f6-5b51-45ae-9866-f61c1dbb3390.png)
 
+# 4) Put macOS in the key :
 
-After that you wil need to create a folder named "com.apple.recovery.boot" and place the two files previously downloaded.
+You wil have to create a folder named "com.apple.recovery.boot" and place the two files previously downloaded (BaseSystem.dmg and BaseSystem.chunklist).
 
 
 
