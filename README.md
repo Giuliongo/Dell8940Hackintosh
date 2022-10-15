@@ -103,7 +103,28 @@ Just another step and you are ready to go!
 
 To enter into the bios press F2 when the Dell logo appears.
 
-ENABLE : 
+BIOS SETTINGS :
+
+- Change to AHCI instead of RAID
+- Switch the video output to Intel UHD 630 (You can let the auto mod but there will be degrade performance) 
+
+
+# 8) YOU ARE READY TO BOOT! 
+
+1) Just select your USB Stick for the booting,
+  
+3) select the EFI folder on the opencore menu,
+ 
+5) Go to the Disk Utility Software
+
+7) Reset the disk where you want to install macOS in apfs and GUID partition 
+ 
+9) Go to install macOS and select the disk 
+
+11) After the installing it will reboot and goes to the configuration menu like a real iMac!  
+
+Enjoy! 
+
 
 
 
