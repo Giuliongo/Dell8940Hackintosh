@@ -2,66 +2,56 @@
 
 # Dell 8940 Configuration :
 
-CPU : i9-10900K (Comet Lake)
+__CPU__ : i9-10900K (Comet Lake)
 
-GPU : Dell RTX 3060 Ti
+__GPU__ : Dell RTX 3060 Ti
 
-iGPU : Intel UHD Graphics 630
+__iGPU__ : Intel UHD Graphics 630
 
-WiFi/Bluetooth Card : Killer.. (Intel)
+__WiFi/Bluetooth Card__ : Killer.. (Intel)
 
-RAM : 2x8Go 
+__RAM__ : 2x8Go 
 
-Monitor (Speaker Integrated) : LG 32UL950-W 4K 32"
+__Monitor__ (Speaker Integrated) : LG 32UL950-W 4K 32"
 
-# What is not Working (I'm working on) ?
+## 1) What you need :
 
-- Bluetooth
-- 4K (I can only run 2K)
-- Speaker of the Monitor
-- ShutDown/Reboot/Sleep
-- Uses of external disk than apfs 
+* __GenSMBIOS__ to create your own SMBIOS deets (SN/MLB/UUID/ROM) : https://github.com/corpnewt/GenSMBIOS
 
-OtherWise all works perflectly (iServices, WiFi, Fluidity...)
+* __ProperTree__ to modify the config,plist for your own computer : https://github.com/corpnewt/ProperTree
 
-# 1) What you need :
+* __macrecovery__ tool to download the macOS partition : https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.5
 
-GenSMBIOS to create your own SMBIOS deets (SN/MLB/UUID/ROM) : https://github.com/corpnewt/GenSMBIOS
+* __USBTool Mapper__ : https://github.com/USBToolBox/tool/releases/tag/0.1.1
 
-ProperTree to modify the config,plist for your own computer : https://github.com/corpnewt/ProperTree
+* __Rufus__ to format your USB : https://rufus.ie/
 
-macrecovery tool to download the macOS partition : https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.5
+* My EFI Folder in the top 
 
-USBTool Mapper : https://github.com/USBToolBox/tool/releases/tag/0.1.1
+* __Python3__ if you don't have install this : https://www.python.org/downloads/release/python-3108/
 
-Rufus to format your USB : https://rufus.ie/
-
-My EFI Folder in the top 
-
-Python3 if you don't have install this : https://www.python.org/downloads/release/python-3108/
-
-# 2) Download the macOS partition with Macrecovery tool :
+## 2) Download the macOS partition with Macrecovery tool :
 
 Open the macrecovery folder in OpenCore-0 -> Utilities -> macrecovery 
 
-After that open CMD in this folder and enter this command to download the latest macOS Version : python ./macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
+After that open __CMD__ in this folder and enter this command to download the latest macOS Version : > python ./macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
 
-Normally you will have two files in the macrecovery folder : BaseSystem.dmg and BaseSystem.chunklist (we will use them later).
+Normally you will have two files in the macrecovery folder : __*BaseSystem.dmg*__ and __*BaseSystem.chunklist*__ (we will use them later).
 
-# 3) Format your USB Stick  :
+## 3) Format your USB Stick  :
 
 Format your USB exactly like that :
 
 
 ![format-usb-rufus 43feba9e](https://user-images.githubusercontent.com/78324112/195980444-6415c1f6-5b51-45ae-9866-f61c1dbb3390.png)
 
-# 4) Put macOS in the key :
+## 4) Put macOS in the key :
 
-Create a folder at the root named "com.apple.recovery.boot" and place the two files previously downloaded (BaseSystem.dmg and BaseSystem.chunklist).
+Create a folder at the root named __*com.apple.recovery.boot*__ and place the two files previously downloaded (BaseSystem.dmg and BaseSystem.chunklist).
 
 After that, copy my EFI folder at the root.
 
-# 5) Mapping your USB Port :
+## 5) Mapping your USB Port :
 
 Open the USBTool software and enter D to Discover Ports (Every 5 seconds it refresh the usb ports detected)
 
@@ -73,7 +63,7 @@ And Finally enter S and after K to Build the Kext.
 
 Recover the kext and drop it into the kext folder of the EFI (EFI -> OC -> Kexts).
 
-# 6) Generate SMBIOS deets :
+## 6) Generate SMBIOS deets :
 
 GenSMBIOS can be run clicking on the GenSMBIOS.bat file.
 
@@ -83,13 +73,13 @@ Enter "iMac20,2" to generate the informations.
 Keep this informations and open ProperTree to edit the config.plist file (EFI -> OC -> config.plist).
 Go to PlatformInfo -> Generic and enter the SMBIOS data like this (with your own results of course) :
 
-Type:         iMac20,2
+__Type__:         *iMac20,2*
 
-Serial:       C02XG0FDH7JY
+__Serial__:       *C02XG0FDH7JY*
 
-Board Serial: C02839303QXH69FJA
+__Board Serial__: *C02839303QXH69FJA*
 
-SmUUID:       DBB364D6-44B2-4A02-B922-AB4396F16DA8
+__SmUUID__:       *DBB364D6-44B2-4A02-B922-AB4396F16DA8*
 
 For the ROM Section you will need to go in the network settings of windows and click to ethernet below you will found the real MAC adress of your desktop. Copy it and paste it into the ROM section of the config.plist.
 
@@ -99,31 +89,39 @@ Congratulation you finish to make the key!
 
 Just another step and you are ready to go!
 
-# 7) Bios Setting you will need to changes before boot in the USB installer :
+## 7) Bios Setting you will need to changes before boot in the USB installer :
 
 To enter into the bios press F2 when the Dell logo appears.
 
-BIOS SETTINGS :
+__BIOS SETTINGS__ :
 
-- Change to AHCI instead of RAID
+- Change to __AHCI__ instead of __RAID__
 - Switch the video output to Intel UHD 630 (You can let the auto mod but there will be degrade performance) 
 
 
-# 8) YOU ARE READY TO BOOT! 
+## 8) YOU ARE READY TO BOOT! 
 
 1) Just select your USB Stick for the booting,
   
-3) select the EFI folder on the opencore menu,
+2) select the EFI folder on the opencore menu,
  
-5) Go to the Disk Utility Software
+3) Go to the Disk Utility Software
 
-7) Reset the disk where you want to install macOS in APFS and GUID partition 
+4) Reset the disk where you want to install macOS in APFS and GUID partition 
  
-9) Go to install macOS and select the disk 
+5) Go to install macOS and select the disk 
 
-11) After the installing it will reboot and goes to the configuration menu like a real iMac!  
+6) After the installing it will reboot and goes to the configuration menu like a real iMac!  
 
-Enjoy! 
+# What is not Working (I'm working on) ?
+
+* Bluetooth
+* 4K (I can only run 2K)
+* Speaker of the Monitor
+* ShutDown/Reboot/Sleep
+* Uses of external disk than apfs 
+
+OtherWise all works perflectly (iServices, WiFi, Fluidity...)
 
 
 
