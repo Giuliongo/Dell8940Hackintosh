@@ -46,7 +46,7 @@ Open the macrecovery folder in OpenCore-0 -> Utilities -> macrecovery
 
 After that open CMD in this folder and enter this command to download the latest macOS Version : python ./macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
 
-Normally you will have two files in the macrecovery folder : BaseSystem.dmg and BaseSystem.chunklist
+Normally you will have two files in the macrecovery folder : BaseSystem.dmg and BaseSystem.chunklist (we will use them later).
 
 # 3) Format your USB Stick  :
 
