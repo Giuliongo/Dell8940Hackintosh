@@ -42,26 +42,30 @@ Python3 if you don't have installing this : https://www.python.org/downloads/rel
 
 # 2) Download the macOS partition with Macrecovery tool :
 
-You need to open the macrecovery folder in OpenCore-0 -> Utilities -> macrecovery 
+Open the macrecovery folder in OpenCore-0 -> Utilities -> macrecovery 
 
-After that open CMD in this folder and enter this command to download the macOS Monterey Version : python ./macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
+After that open CMD in this folder and enter this command to download the latest macOS Version : python ./macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
 
 Normally you will have two files in the macrecovery folder : BaseSystem.dmg and BaseSystem.chunklist
 
 # 3) Format your USB Stick  :
 
-You will need to format your USB exactly like that :
+Format your USB exactly like that :
 
 
 ![format-usb-rufus 43feba9e](https://user-images.githubusercontent.com/78324112/195980444-6415c1f6-5b51-45ae-9866-f61c1dbb3390.png)
 
 # 4) Put macOS in the key :
 
-You wil have to create a folder at the root named "com.apple.recovery.boot" and place the two files previously downloaded (BaseSystem.dmg and BaseSystem.chunklist).
+Create a folder at the root named "com.apple.recovery.boot" and place the two files previously downloaded (BaseSystem.dmg and BaseSystem.chunklist).
 
 After that, copy my EFI folder at the root;
 
 # 5) Mapping your USB Port :
+
+Open the USBTool software and select D to Discover Port
+
+![Capture d’écran 2022-10-15 à 12 18 05](https://user-images.githubusercontent.com/78324112/195981177-e2d4e307-fd50-43c3-b1a1-549a23e98185.png)
 
 
 
