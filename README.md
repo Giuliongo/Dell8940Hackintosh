@@ -38,7 +38,7 @@ Rufus to format your USB : https://rufus.ie/
 
 My EFI Folder in the top 
 
-Python3 if you don't have installing this : https://www.python.org/downloads/release/python-3108/
+Python3 if you don't have install this : https://www.python.org/downloads/release/python-3108/
 
 # 2) Download the macOS partition with Macrecovery tool :
 
