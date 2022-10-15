@@ -70,7 +70,7 @@ And Finally enter S and after K to Build the Kext.
 
 Recover the kext and drop it into the kext folder of the EFI (EFI -> OC -> Kexts).
 
-## 6) Generate SMBIOS deets :
+## 6) Generate SMBIOS deets (if you don't do this apples services won't work) :
 
 GenSMBIOS can be run clicking on the GenSMBIOS.bat file.
 
@@ -127,6 +127,7 @@ __BIOS SETTINGS__ :
 * Speaker of the Monitor
 * ShutDown/Reboot/Sleep
 * Uses of external disk than apfs 
+* Ethernet
 
 OtherWise all works perflectly (iServices, WiFi, Fluidity...)
 
