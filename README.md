@@ -125,14 +125,5 @@ __BIOS SETTINGS__ :
 * 4K (I can only run 2K)
 * Speaker of the Monitor
 * ShutDown/Reboot/Sleep
-* Ethernet
 
 OtherWise all works perflectly (iServices, WiFi, Fluidity...)
-
-Credits :
-
-
-
-
-
-
