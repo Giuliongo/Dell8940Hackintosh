@@ -123,7 +123,7 @@ __BIOS SETTINGS__ :
 # What is not Working (I'm working on) ?
 
 * 4K (I can only run 2K)
-* Speaker of the Monitor
+* DisplayPort/HDMI Audio
 * ShutDown/Reboot/Sleep
 
 OtherWise all works perflectly (iServices, WiFi, Fluidity...)
