@@ -103,7 +103,9 @@ To enter into the bios press F2 when the Dell logo appears.
 __BIOS SETTINGS__ :
 
 - Change to __AHCI__ instead of __RAID__
-- Switch the video output to Intel UHD 630 (You can let the auto mod but there will be degrade performance) 
+- Switch the video output to Intel UHD 630 (You can let the auto mod but there will be degrade performance)
+- Disable all SGX, security features 
+- Do not touch Sleep States, Performance states, SpeedShift etc. 
 
 
 ## 8) YOU ARE READY TO BOOT! 
@@ -122,8 +124,7 @@ __BIOS SETTINGS__ :
 
 # What is not Working (I'm working on) ?
 
-* 4K (I can only run 2K)
-* DisplayPort/HDMI Audio
-* ShutDown/Reboot/Sleep
+* iGPU 4K (I can only run 2K)
+* iGPU DisplayPort/HDMI Audio
 
 OtherWise all works perflectly (iServices, WiFi, Fluidity...)
