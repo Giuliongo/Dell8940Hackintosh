@@ -122,7 +122,7 @@ __BIOS SETTINGS__ :
 
 6) After the installing it will reboot and goes to the configuration menu like a real iMac!  
 
-# What is not Working (I'm working on) ?
+# What is not Working (Solved using a AMD GPU as an RX 580) ?
 
 * iGPU 4K (I can only run 2K)
 * iGPU DisplayPort/HDMI Audio
